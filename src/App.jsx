@@ -5,7 +5,7 @@ import UserInput from './components/UserInput/UserInput';
 
 const INITIAL_USER_INPUT = {
   initialInvestment: 10000,
-  annualInvestiment: 1200,
+  annualInvestment: 1200,
   expectedReturn: 6,
   duration: 10,
 };
@@ -17,7 +17,7 @@ function App() {
     setUserInput((prevUserInput) => {
       return {
         ...prevUserInput,
-        [inputIdentifier]: newValue,
+        [inputIdentifier]: +newValue,
       };
     });
   }

@@ -14,13 +14,13 @@ export default function UserInput({ onChangeInput, userInput }) {
           />
         </p>
         <p>
-          <label>Annual investment</label>
+          <label>Annual Investment</label>
           <input
             type='number'
             required
-            value={userInput.annualInvestiment}
+            value={userInput.annualInvestment}
             onChange={(event) =>
-              onChangeInput('annualInvestiment', event.target.value)
+              onChangeInput('annualInvestment', event.target.value)
             }
           />
         </p>
