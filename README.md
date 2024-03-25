@@ -1,6 +1,6 @@
-# React essiantials project
+# React Investment Calculator
 
-A small project to display core concepts of React library
+A small Investment website using core react concepts
 
 ## Run Locally
 
